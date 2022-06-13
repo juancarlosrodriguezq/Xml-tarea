@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Museo</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="public/css/main.css">
 <script src="https://kit.fontawesome.com/098eca0527.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-black">
+  
     
-    <nav class="navbar navbar-light bg-danger">
-          <div class="container-fluid justify-content-center mexfant ">
-            <img src="public/images/jarocha.jpg" alt="" width="100" height="100" class="p-2 rounded-circle
+    <nav class="navbar navbar-light bg-dark">
+          <div class="container-fluid justify-content-center mexfont ">
+            <img src="public/images/Untitled design - 2022-06-12T195856.296.png" alt="" width="100" height="100" class="p-2 rounded-circle
             .mexfont">
           <a class="navbar-brand fs-1 text-white lilfont " href="#">
-            La Jarochita
+            Museo Internacional de Cultura
             </a>
           
         </div>
@@ -31,14 +33,14 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="public/images/local1.jpg"  class="d-block w-100 max" alt="...">
+            <img src="public/images/gioconda.jpg"  class="d-block w-100 max h-50" alt="...">
            
           </div>
           <div class="carousel-item">
-            <img src="public/images/local2.jpg" class="d-block w-100" alt="...">
+            <img src="public/images/dali.jpg" class="d-block w-100 h-50" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="public/images/local4.jpg" class="d-block w-100" alt="...">
+            <img src="public/images/noche estrellada.jpg" class="d-block w-100 h-50" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -52,25 +54,25 @@
       </div>
 
      
-    <nav class="navbar navbar-light bg-danger">
+    <nav class="navbar navbar-light bg-dark">
 
         
         <div class="container m-0 p-1 align-content-between">
             
          <span class="material-symbols-outlined p-0 text-white justify-content-sm-between">
-            home
+            <i class="fa fa-home" aria-hidden="true"></i>
             </span>
         
          <span class="material-symbols-outlined text-white ">
-             shopping_cart_checkout
+             <i class="fa fa-phone" aria-hidden="true"></i>
             </span>
 
         <span class="material-symbols-outlined text-white ">
-             restaurant
+          <i class="fa-solid fa-landmark"></i>
              </span>
 
        <span class="material-symbols-outlined text-white ">
-            nightlife
+         <i class="fa-solid fa-brush"></i>
              </span>     
                 
                 
@@ -79,76 +81,46 @@
       
     </nav>
 
-
-    <div class="card-group p-5 ">
-        <div class="card p-1 bg-info ">
-          <img class="card-img-top max" src="public/images/mex2.jpg" alt="Card image cap   ">
-          <div class="card-body ,">
-            <h5 class="card-title mexfont fs-2 text-white">Taquizas</h5>
-            <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-dark">
+                  <img src="public/images/van.jpg" class="card-img-top" alt="A Street in Europe">
+                  <div class="card-body">
+                      <h5 class="card-title text-white" style="text-align: center;"> Vincent van Gogh </h5>
+                      <p class="card-text mexfont text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
+                      <a href="#" class="btn btn-primary">Mas info</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="card p-1 bg-danger">
-          <img class="card-img-top max" src="public/images/mex5.png " alt="Card image cap ">
-          <div class="card-body">
-            <h5 class="card-title mexfont fs-2 text-white">Arracheras</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-dark">
+                  <img src="public/images/davinci.jpg" class="card-img-top" alt="London">
+                  <div class="card-body">
+                      <h5 class="card-title text-white" style="text-align: center;">
+                          Leonardo da Vinci</h5>
+                      <p class="card-text mexfont text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
+                      <a href="#" class="btn btn-primary">Mas info</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="card p-1 bg-warning">
-          <img class="card-img-top max" src="public/images/mex6.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title mexfont fs-2 text-white">Guacamoles</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card bg-dark">
+                  <img src="public/images/dali.jpg" class="card-img-top" alt="New York">
+                  <div class="card-body">
+                      <h5 class="card-title text-white" style="text-align: center;"> 
+                          Salvador Dali </h5>
+                      <p class="card-text mexfont text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer interdum odio in felis mattis feugiat. In rhoncus libero magna, ultricies condimentum tortor tempor sit amet.</p>
+                      <a href="#" class="btn btn-primary">Mas info</a>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-
-      <nav class="navbar navbar-light bg-danger p-2">
-        <div class="container-fluid justify-content-center mexfant ">
-          <img src="public/images/jarocha.jpg" alt="" width="100" height="100" class="p-2 rounded-circle
-          .mexfont">
-        <a class="navbar-brand fs-1 text-white lilfont " href="#">
-          Sorbitos
-          </a>
-        
-      </div>
-    </nav>
-
-      <div class="card-group  ">
-        <div class="card p-1 bg-info ">
-          <img class="card-img-top" src="public/images/tequila.webp" alt="Card image cap">
-          <div class="card-body ,">
-            <h5 class="card-title mexfont fs-2 text-white">Card title</h5>
-            <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card p-1 bg-danger">
-          <img class="card-img-top" src="public/images/michelada.jpg " alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title mexfont fs-2 text-white">Card title</h5>
-            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-        <div class="card p-1 bg-warning">
-          <img class="card-img-top" src="public/images/mumi.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title mexfont fs-2 text-white">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-
 
         
 
     </nav>
+
     
 
 </body>

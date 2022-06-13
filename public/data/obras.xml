@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Etiqueta museo -->
+
+<listapinturas>
+    <pinturas>
+        <nombre>La Gioconda</nombre>
+        <artista nombre="Leonardo" apellido="Da Vinci" nacionalidad="Italia" />        
+        <release>1797</release>       
+    </pinturas>
+        
+    <pinturas>
+        <nombre>La noche estrellada</nombre>
+        <artista nombre="Vincent" apellido="van Gogh" nacionalidad="Paises bajos" />        
+        <release>1889</release>
+    </pinturas>
+
+    <pelicula>
+        <nombre> La persistencia de la memoria </nombre>
+        <artista nombre="Salvador" apellido="Dali" nacionalidad="España" />        
+        <release> 1931 </release>
+    </pelicula>
+
+</listapinturas>
